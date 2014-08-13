@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-parserequestbody"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Keiichiro Nagashima"]
   spec.email         = ["k16.nagshima@gmail.com"]
   spec.summary       = %q{Fluentd plugin for parse request body}
