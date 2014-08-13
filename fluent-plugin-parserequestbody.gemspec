@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.1"
   spec.authors       = ["Keiichiro Nagashima"]
   spec.email         = ["k16.nagshima@gmail.com"]
-  spec.summary       = %q{Fluentd plugin}
-  spec.description   = %q{Fluentd plugin}
+  spec.summary       = %q{Fluentd plugin for parse request body}
+  spec.description   = %q{Fluentd plugin for parse request body}
   spec.homepage      = "https://github.com/k1row/fluent-plugin-requestbody.git"
   spec.license       = "MIT"
 
