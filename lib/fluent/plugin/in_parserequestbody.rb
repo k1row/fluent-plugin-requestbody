@@ -9,9 +9,11 @@ class Fluent::ParseRequestbodyInput < Fluent::TailInput
   	elements = line.split("\t")
 
   	time = elements.shift
+    time_local = time # We need raw time_local data
   	time = Time.strptime(time, @time_format).to_i
 
     record = {}
+    record["time_local"] = time_local
     while (k = elements.shift) && (v = elements.shift)
     	if(k =~ /request_body/)
     		self.parseRequestBody(k, record)
